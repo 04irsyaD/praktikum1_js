@@ -30,7 +30,7 @@ app.post("/berat", (req,res) => {
     let response ={
         tinggi: tinggi,
         berat: berat,
-        beratBadan: falue,
+        BMI: falue,
         Status : aku
         
     }
