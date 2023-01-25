@@ -73,12 +73,11 @@ app.post("/tabung", (req,res) => {
 })
 
 app.post("/bola", (req,res) => {
-    let tinggi = Number(req.body.tinggi)
     let jari = Number(req.body.jari)
     
 
-    let luas = 2* 22/7*jari*(jari+tinggi)
-    let volume = 22/7 * jari * jari * tinggi
+    let luas = 4* 22/7*jari*jari
+    let volume = 4/3 * 22/7 * jari * jari * jari
 
     let response ={
         tinggi: tinggi,
